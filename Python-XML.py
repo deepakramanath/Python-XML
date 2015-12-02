@@ -20,7 +20,7 @@ if len(argv) > 1:
     exit(0)
 
 with open('F1-Grand-Prix-Australia.xml', 'r') as xmlFile:
-	xmlTree = ET.parse(xmlFile)
+    xmlTree = ET.parse(xmlFile)
 
 print "\n"
 
