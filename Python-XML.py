@@ -16,8 +16,8 @@ import xml.etree.ElementTree as ET
 from sys import argv, exit
 
 if len(argv) > 1:
-	print(__doc__)
-	exit(0)
+    print(__doc__)
+    exit(0)
 
 with open('F1-Grand-Prix-Australia.xml', 'r') as xmlFile:
 	xmlTree = ET.parse(xmlFile)
